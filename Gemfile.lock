@@ -3,6 +3,7 @@ PATH
   specs:
     activerecord-has_trait (0.1.0)
       activerecord (> 6, < 8)
+      activerecord-not_nil
 
 GEM
   remote: https://rubygems.org/
@@ -13,6 +14,9 @@ GEM
       activemodel (= 7.1.1)
       activesupport (= 7.1.1)
       timeout (>= 0.4.0)
+    activerecord-not_nil (0.0.0)
+      activerecord (> 6, < 8)
+      not_niller (= 0.0.0)
     activesupport (7.1.1)
       base64
       bigdecimal
@@ -37,6 +41,7 @@ GEM
     minitest-focus (1.4.0)
       minitest (>= 4, < 6)
     mutex_m (0.1.2)
+    not_niller (0.0.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
